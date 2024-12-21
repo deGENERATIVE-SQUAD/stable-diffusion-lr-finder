@@ -21,7 +21,7 @@ https://medium.com/@damian0815/the-lr-finder-method-for-stable-diffusion-46053ff
 
 Note: The "Suggested learning rate" displayed in the command prompt may not work as intended.
 
-You can manually adjust the script's settings in lines 233–250 and 290.
+You can manually adjust the script's settings in lines 233–250 and 290. You can change the loss function in line 291.
 
 Args: lr.py [-h] [--model_path MODEL_PATH] [--dataset_path DATASET_PATH] [--start_lr START_LR] [--end_lr END_LR]
              [--batch_size BATCH_SIZE] [--num_iter NUM_ITER] [--seed SEED]
